@@ -1,0 +1,16 @@
+.welcome-line {
+    width: 48%;
+    position: relative;
+    margin-bottom: 248px;
+}
+
+.welcome-line__title {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.welcome-line__text {
+    font-size: 18px;
+    margin-bottom: 35px;
+}

@@ -1,0 +1,62 @@
+.button {
+    background: #f5170e;
+    border-radius: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: color .3s, background .3s;
+}
+
+.btn-red:hover {
+    background: #da0100;
+}
+
+.btn-white {
+    border: 1px solid rgba(245, 23, 14, 0.4);
+    background: #ffffff;
+    color: #d21d16;
+    font-size: 14px;
+}
+
+.btn-white:hover {
+    color: #ffffff;
+    background: #f5170e;
+}
+
+.btn-grey {
+    background: #2b2b2b;
+    color: #ffffff;
+}
+
+.btn-grey:hover {
+    background: #000000;
+}
+
+.btn__more {
+    padding: 16px 39px;
+}
+
+.btn__look {
+    padding: 16px 27px;
+}
+
+.btn__enter {
+    padding: 16px 57px;
+    transition: background .3s, box-shadow .3s;
+}
+
+.btn__enter:hover {
+    box-shadow: 0 0 20px rgba(245, 23, 14, 0.5);
+}
+
+.btn__reset {
+    padding: 16px 44px;
+    margin-right: 19px;
+}
+
+.btn__submit {
+    padding: 16px 40px;
+    color: #ffffff;
+}

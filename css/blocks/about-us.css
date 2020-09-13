@@ -1,0 +1,48 @@
+section.about-us {
+    margin-bottom: 44px;
+}
+
+.about:before {
+    content: "";
+    width: 488px;
+    height: 502px;
+    display: block;
+    background-color: #282a2d;
+    border-radius: 6px;
+    background: url("../../img/decor/road.jpg") center center / cover no-repeat;
+}
+
+.about {
+    display: flex;
+}
+
+.about__desc {
+    background: url("../../img/decor/mount.jpg");
+    max-width: 780px;
+    height: 454px;
+    border-radius: 6px;
+    padding: 68px 99px;
+    margin-left: -130px;
+    margin-top: 107px;
+}
+
+.about__title {
+    font-weight: bold;
+    font-style: 36px;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.about__desc-text {
+    color: #303030;
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+.about__desc-text p {
+    margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child {
+    margin-bottom: 0;
+}

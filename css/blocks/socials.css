@@ -1,0 +1,44 @@
+.social-icons {
+    margin-right: 74px;
+    display: flex;
+}
+
+.social-icons__item {
+    margin-right: 10px;
+}
+
+.social-icons__item:last-child {
+    margin-right: 0;
+}
+
+.social-icons__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.social__item--telegram .social-icons__link {
+    background: url("../../img/icons/socials/socials_sprites.png") -10px -66px;
+}
+
+.social__item--vk .social-icons__link {
+    background: url("../../img/icons/socials/socials_sprites.png") -66px -66px;
+}
+
+.social__item--fb .social-icons__link {
+    background: url("../../img/icons/socials/socials_sprites.png") -10px -10px;
+}
+
+.social__item--insta .social-icons__link {
+    background: url("../../img/icons/socials/socials_sprites.png")-66px -10px;
+}
+
+.social-icons__item {
+    opacity: .5;
+    transition: opacity .3s;
+}
+
+.social-icons__item:hover {
+    opacity: .8;
+}

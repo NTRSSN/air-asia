@@ -1,0 +1,106 @@
+.hot-deals {
+    margin-bottom: 141px;
+}
+
+.hot-deals__main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.hot-deals__tour {    
+    width: calc(100% / 3 - 21px);
+}
+
+.hot-offer {
+    min-height: 439px;
+    background: white;
+    border-radius: 6px;    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-deals__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour {
+    position: relative;
+}
+
+.tour:last-child {
+    margin-right: 0;
+}
+
+.tour__wrap {
+    height: 141px;
+    overflow: hidden;
+}
+
+.tour__cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -40px;
+}
+
+.tour__module {
+    padding: 23px 20px 32px;
+    color: #000;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tour__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.tour__details {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 22px;
+}
+
+img.tour__details-icon {
+    margin: 0 7px;
+}
+
+.tour__detail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tour-details__text {
+    color: #666666;
+    width: 111px;
+    margin-right: 11px;
+}
+
+.tour__text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #303030;
+    margin-bottom: 27px;
+}
+
+.deals-btn {
+    display: flex;
+    margin-top: auto;
+}
+
+.main-title__col {
+    display: flex;
+    align-items: baseline;
+}
+
+.hot-deals__icon {
+    width: 21px;
+    height: 28px;
+    margin-left: 10px;
+}
